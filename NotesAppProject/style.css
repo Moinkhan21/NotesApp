@@ -1,0 +1,90 @@
+/* Global Styles */
+* {
+    margin: 0; /* Reset default margin for all elements */
+    padding: 0; /* Reset default padding for all elements */
+    font-family: 'Poppins', sans-serif; /* Set default font family */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Main Container Styles */
+.container {
+    width: 100%; /* Full-width container */
+    min-height: 100vh; /* Full viewport height for the background */
+    background: linear-gradient(135deg, #9f50e0, #c3d9b4); /* Background gradient from top left to bottom right */
+    color: #fff; /* Default text color */
+    padding-top: 4%; /* Spacing from the top */
+    padding-left: 10%; /* Left padding to center content */
+}
+
+/* Header (Title) Styling */
+.container h1 {
+    display: flex; /* Align image and text horizontally */
+    align-items: center; /* Center items vertically */
+    font-size: 35px; /* Large title font size */
+    font-weight: 600; /* Bold font for emphasis */
+}
+
+/* Header Image (Logo) */
+.container h1 img {
+    width: 60px; /* Set logo size */
+}
+
+/* Create Notes Button */
+.container button {
+    display: flex; /* Align icon and text horizontally */
+    align-items: center; /* Center items vertically */
+    background: linear-gradient(#9418fd, #571094); /* Gradient background for the button */
+    color: #fff; /* Text color */
+    font-size: 16px; /* Font size for button text */
+    outline: 0; /* Remove outline */
+    border: 0; /* Remove border */
+    border-radius: 40px; /* Rounded button */
+    padding: 15px 25px; /* Spacing inside the button */
+    margin: 30px 0 20px; /* Spacing above and below button */
+    cursor: pointer; /* Pointer cursor to indicate clickable button */
+}
+
+/* Button Icon */
+.container button img {
+    width: 25px; /* Icon size */
+    margin-right: 8px; /* Space between icon and text */
+}
+
+/* Input Box Styling */
+.input-box {
+    position: relative; /* Allows positioning of the icon inside */
+    width: 100%; /* Full-width by default */
+    max-width: 500px; /* Maximum width for larger screens */
+    min-height: 150px; /* Minimum height for visibility */
+    background-color: #fff; /* White background for the input area */
+    color: #333; /* Text color */
+    padding: 20px; /* Inner spacing */
+    margin: 20px 0; /* Vertical spacing around the input box */
+    outline: none; /* Remove outline */
+    border-radius: 5px; /* Slight rounding for smoother edges */
+}
+
+/* Input Box Icon */
+.input-box img {
+    width: 25px; /* Icon size */
+    position: absolute; /* Positioning within the input box */
+    bottom: 15px; /* Position from the bottom */
+    right: 15px; /* Position from the right */
+    cursor: pointer; /* Pointer cursor for icon */
+}
+
+/* Clear All Notes Button */
+.container .clear-all-btn {
+    display: block; /* Block display for full width */
+    width: 100%; /* Full width by default */
+    height: 55px; /* Fixed height for consistency */
+    max-width: 187.2px; /* Restrict maximum width */
+    padding: 15px 25px; /* Inner spacing */
+    color: #fff; /* Text color */
+    font-size: 16px; /* Font size */
+    font-weight: 500; /* Medium font weight */
+    border: none; /* Remove border */
+    border-radius: 40px; /* Rounded button style */
+    cursor: pointer; /* Pointer cursor to indicate clickable button */
+    margin: 30px 0 20px; /* Spacing above and below the button */
+}

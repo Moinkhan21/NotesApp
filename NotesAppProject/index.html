@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    
+    <!-- Link to the external stylesheet for styling the Notes App interface -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main container wrapping all elements in the Notes App -->
+    <div class="container">
+        
+        <!-- Header section with an image logo and the title "Notes" -->
+        <h1>
+            <img src="images/notes.png" alt="Notes Image"> Notes
+        </h1>
+        
+        <!-- Button to initiate the creation of a new note; includes an edit icon for visual cue -->
+        <button class="btn">
+            <img src="images/edit.png" alt="Edit Icon"> Create Notes
+        </button>
+        
+        <!-- Container where individual notes will be dynamically added/displayed -->
+        <div class="notes-container"></div>
+        
+    </div>
+    
+    <!-- Link to the external JavaScript file, which manages app functionality -->
+    <script src="script.js"></script>
+</body>
+</html>
